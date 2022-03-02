@@ -18,7 +18,7 @@
 <segment>
     <div class='intro'>
     <div class='container'>
-        <h2><?php echo $header2 ?></h2>
+        <h1><?php echo $header2 ?></h1>
     </div>
 </div>
 </segment>
