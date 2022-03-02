@@ -1,0 +1,31 @@
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+
+.gmap_canvas iframe {
+    width:600;
+    height:500;
+}
+
+@media only screen and (max-width: 670px) {
+
+    .mapouter {
+        width:100%;
+    }
+    .gmap_canvas {   
+        width:100%;
+    }
+    .gmap_canvas iframe {
+        height: 70%;
+        width: 100%;
+    }
+}
